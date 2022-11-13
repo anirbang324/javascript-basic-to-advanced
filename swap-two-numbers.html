@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+function swap(){
+var a,b,c;
+a=(document.getElementById("num1").value);
+b=(document.getElementById("num2").value);
+c=a;
+a=b;
+b=c;
+document.getElementById("number1").value= a;
+document.getElementById("number2").value= b;
+}
+</script>
+</head>
+<body>
+<input id="num1">
+<input id="num2"></br></br>
+<button onclick="swap()">Swap</button></br></br>
+<input id="number1">
+<input id="number2">
+</body>
+</html>
